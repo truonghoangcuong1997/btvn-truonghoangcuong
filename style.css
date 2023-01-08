@@ -1,0 +1,76 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+     font-family: 'Roboto', sans-serif;;
+     max-width: 1440px;
+     margin: 0 auto;
+}
+.container{
+    display: flex;
+    background-color: aquamarine;
+
+}
+.container > div {
+ background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+}
+.container:hover{
+    box-shadow: 0 0 21px 0 rgb(152 152 152 / 23%);
+}
+.sevirce-heder h2 {
+font-size: 45px;
+font-weight: 700px;
+text-align: center;
+margin-bottom: 24px;
+}
+.sevirce-heder p {
+    font-size: 16px;
+    color: #8a8fa3;
+    line-height: 28px;
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    
+}
+.sevircer-heder{
+    margin-bottom: 40px ;
+}
+.sevirces-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.sevirces{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1120px;
+    text-align: center;
+    gap: 20px;
+}
+
+.sevirces .sevirces-item {
+    border:1px #f1f1f1;
+    padding: 24px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    width: calc(100%/3);
+    width: 350px;
+    transition:ease-in-out 0.3s;
+
+}
+.sevirces-item:hover{
+    box-shadow: 0 0 21px 0 rgb(152 152 152 / 23%);
+}
+.sevirces .sevirces-item .icon{
+    font-size: 20px;
+    color: ;
+}
